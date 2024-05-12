@@ -1,0 +1,18 @@
+/* .not__icon {
+   position: absolute; 
+} */
+.not__round {
+  position: relative;
+  top: -13px;
+  left: -73px;
+  width: 15px;
+  height: 15px;
+  background-color: #ff9f28;
+  border-radius: 50%;
+}
+.not__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}

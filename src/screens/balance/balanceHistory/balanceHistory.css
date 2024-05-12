@@ -1,0 +1,32 @@
+.balanceHistory__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f8fb;
+  border-radius: 10px;
+  padding: 10px 55px;
+  margin-bottom: 10px;
+  color: #a0a0a0;
+  font-size: 18px;
+  font-weight: 500;
+}
+.balanceHistory__item:last-child {
+  margin-bottom: 250px;
+}
+.balanceHistory__count-green {
+  color: #219653;
+  align-items: flex-end;
+}
+.balanceHistory__count-red {
+  color: #ff0000;
+  align-items: flex-end;
+}
+
+.balanceHistory__condition {
+  display: flex;
+  justify-content: center;
+  width: 235px;
+}
+.balanceHistory__condition > p {
+  align-items: center;
+}

@@ -1,0 +1,22 @@
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  color: #a0a0a0;
+  font-size: 12px;
+  font-weight: 600;
+}
+.nav__link {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 6px;
+  transition: all 0.3s;
+}
+.nav__link:hover {
+  background-color: rgb(232, 240, 240);
+  border-radius: 5px;
+}
+.active {
+  background-color: rgb(232, 240, 240);
+  border-radius: 5px;
+}

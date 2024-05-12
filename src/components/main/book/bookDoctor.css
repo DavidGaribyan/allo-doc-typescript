@@ -1,0 +1,70 @@
+.book__wrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 1160px;
+  margin: 0 auto 110px auto;
+  padding: 27px 70px;
+  box-shadow: 0px 0px 17px 5px rgba(34, 60, 80, 0.25);
+}
+.book__img {
+  margin: auto;
+}
+.book__list {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Montserrat;
+  padding-left: 18px;
+  padding-bottom: 28px;
+}
+.book__list li {
+  padding-bottom: 16px;
+}
+.book__text {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Montserrat;
+  padding-bottom: 18px;
+}
+.book__heading {
+  color: #4f4f4f;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Montserrat;
+  padding-bottom: 28px;
+  position: relative;
+}
+.book__heading::after {
+  content: '';
+  display: block;
+  width: 45%;
+  border-bottom: 15px solid #ff9f28;
+  position: absolute;
+  bottom: 25px;
+  z-index: -1;
+}
+.book__btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #56ccf2;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+.myBooks__btn {
+  display: block;
+  text-decoration: none;
+  max-width: fit-content;
+  padding: 4px 18px;
+  margin: 0 auto 60px;
+  margin-bottom: 60px;
+  background-color: #9de7ff;
+  border-radius: 5px;
+  color: #4f4f4f;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'montserrat';
+}

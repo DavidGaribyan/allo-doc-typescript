@@ -1,0 +1,13 @@
+.footer__info-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  max-width: 365px;
+}
+.footer__info-text {
+  padding-bottom: 28px;
+}
+.footer__logo {
+  max-width: 205px;
+  padding-bottom: 28px;
+}

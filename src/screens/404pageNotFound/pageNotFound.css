@@ -1,0 +1,51 @@
+.page404__heading {
+  font-size: 144px;
+  color: #ff5252;
+  animation: bounce 2s ease;
+  z-index: -1;
+}
+.page404__text {
+  font-weight: bold;
+  font-size: 32px;
+  color: #555;
+}
+.page404__text-home {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.page404__btn {
+  max-width: fit-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #ff5252;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 100px;
+}
+.page404__btn:hover {
+  background-color: #ca6060;
+}
+.page404__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 50vh;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(-20px);
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: translateY(10px);
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: translateY(0);
+    transform: rotate(0deg);
+  }
+}

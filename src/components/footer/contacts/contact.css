@@ -1,0 +1,8 @@
+.contacts__wrapper {
+  color: aliceblue;
+}
+.contacts__item {
+  display: flex;
+  padding-bottom: 26px;
+  gap: 22px;
+}

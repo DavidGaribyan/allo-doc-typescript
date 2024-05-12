@@ -1,0 +1,12 @@
+.social__icons {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 37px;
+}
+.app__icons {
+  display: flex;
+  gap: 10px;
+}
+.footer__icons {
+  cursor: pointer;
+}

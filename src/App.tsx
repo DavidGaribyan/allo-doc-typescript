@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/header/header";
+import MainContent from "./components/main/MainContent";
+import FooterContent from "./components/footer/FooterContent";
+import DoctorProfile from "./screens/doctorProfile/DoctorProfile";
+import Balance from "./screens/balance/Balance";
+import { Route, Routes } from "react-router-dom";
+import Notes from "./components/main/notes/notesList/Notes";
+import PageNotFound from "./screens/404pageNotFound/PageNotFound";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<MainContent />} />
+        <Route path="/doctor/:id" element={<DoctorProfile />} />
+        <Route path="/balance" element={<Balance />} />
+        <Route path="/myNotes" element={<Notes show={true} />} />
+        <Route path="/*" element={<PageNotFound />} />
+      </Routes>
+      <FooterContent />
+    </>
   );
 }
 

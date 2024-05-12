@@ -1,0 +1,41 @@
+.popUp__list {
+  color: #787878;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  transform: translate(0px, -300px);
+  opacity: 0;
+  right: 0;
+  list-style: none;
+  max-height: 200px;
+  max-width: 350px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 12px 20px;
+  z-index: 3;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease;
+}
+.popUp__list.visible {
+  opacity: 1;
+  transform: translate(0px, 130px);
+}
+.popUp__item {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 8px;
+  border-bottom: 1px solid black;
+  padding-top: 11px;
+}
+
+.popUp__itext {
+  padding-left: 12px;
+}
+
+.popUp__item-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}

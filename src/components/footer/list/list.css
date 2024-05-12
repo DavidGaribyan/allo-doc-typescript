@@ -1,0 +1,10 @@
+.footer__list {
+  color: aliceblue;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+.footer__list > li {
+  cursor: pointer;
+}

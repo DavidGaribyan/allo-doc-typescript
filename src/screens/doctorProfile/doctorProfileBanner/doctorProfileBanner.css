@@ -1,0 +1,63 @@
+.doctorProfile__wrapper {
+  background-color: #56ccf2;
+  padding: 24px 0 50px 0;
+  font-family: 'montserrat';
+  margin-bottom: 50px;
+  margin-top: -46px;
+}
+.banner__avatar {
+  max-width: 150px;
+  border-radius: 50%;
+}
+.profile__banner-info {
+  display: flex;
+  gap: 25px;
+}
+.doctorBanner__info-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.banner__links {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 54px;
+}
+.profile__banner-info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.profile__banner-price {
+  margin-bottom: 10px;
+}
+.doctorBanner__info-doctorName {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Montserrat;
+}
+.doctorBanner__info-doctorStaff {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Montserrat;
+}
+.doctorBanner__info-doctorStage {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Montserrat;
+}
+.banner__links {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Montserrat;
+}
+.profile__banner-price-info {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Montserrat;
+  margin-left: auto;
+}

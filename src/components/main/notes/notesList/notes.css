@@ -1,0 +1,36 @@
+.notes__list {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.notes__heading {
+  color: #4f4f4f;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  margin-bottom: 25px;
+}
+.active__yellow {
+  background-color: #ffab43;
+}
+.active__green {
+  background-color: #59ff43;
+}
+.active__red {
+  background-color: #ef233c;
+}
+.notes__item {
+  text-decoration: none;
+  color: #a0a0a0;
+  padding: 7px 9px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.notes__item:hover {
+  background: #f6f8fb;
+}

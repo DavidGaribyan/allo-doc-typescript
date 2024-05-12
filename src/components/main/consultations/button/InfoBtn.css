@@ -1,0 +1,35 @@
+.white {
+  padding: 17px 76px 17px 76px;
+  border: 2px solid #56ccf2;
+  border-radius: 5px;
+  color: #56ccf2;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 20px;
+  cursor: pointer;
+  background: none;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.white:hover {
+  background: #56ccf2;
+  border: 2px solid #56ccf2;
+  color: #ffffff;
+}
+.blue {
+  padding: 17px 42px 17px 42px;
+  background: #56ccf2;
+  border: 2px solid #56ccf2;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.blue:hover {
+  border: 2px solid #56ccf2;
+  background: none;
+  color: #56ccf2;
+}

@@ -1,0 +1,31 @@
+.doctorProfileInfo__wrapper {
+  max-width: 500px;
+  margin-bottom: 200px;
+}
+.doctorProfileInfo__list {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+  list-style: none;
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Montserrat;
+}
+.doctorProfileInfo__list-text {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.doctorProfileInfo__list-heading {
+  color: #56ccf2;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  margin-bottom: 34px;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+}
+.infoPage__calendar {
+  margin-right: 20px;
+}

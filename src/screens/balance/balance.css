@@ -1,0 +1,53 @@
+.balanceBtn {
+  padding: 10px 120px;
+}
+
+.my__balance-wrapper {
+  display: flex;
+  margin-bottom: 50px;
+}
+.balance__heading {
+  color: #4f4f4f;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Montserrat;
+  margin-bottom: 20px;
+}
+.balance__amount {
+  color: #219653;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: Montserrat;
+  margin-right: 54px;
+}
+.balanceNotes__list {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.balanceNotes__item-active {
+  background-color: #f6f8fb;
+}
+
+.balanceNotes__item {
+  text-decoration: none;
+  color: #a0a0a0;
+  padding: 7px 9px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.balanceNotes__item:hover {
+  background: #f6f8fb;
+}
+.balanceHistory__heading {
+  color: #4f4f4f;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Montserrat;
+  margin-bottom: 20px;
+}

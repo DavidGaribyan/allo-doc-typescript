@@ -1,0 +1,64 @@
+.user__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+.user__bg {
+  width: 37px;
+  height: 37px;
+  background-color: #ff9f28;
+  border-radius: 50%;
+}
+
+.user__letter {
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3px;
+}
+.user__name {
+  color: #787878;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.popUp__btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.popUp__icon {
+  width: 32px;
+  position: relative;
+}
+
+.lang__en {
+  position: absolute;
+  top: -30px;
+  right: 35px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.lang__ru {
+  position: absolute;
+  top: -30px;
+  right: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+.lang__en.active {
+  background-color: aqua;
+}
+.lang__ru.active {
+  background-color: aqua;
+}

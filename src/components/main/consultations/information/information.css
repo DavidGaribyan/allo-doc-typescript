@@ -1,0 +1,52 @@
+.info__wrapper {
+  max-width: 700px;
+}
+
+.information__heading {
+  max-width: 550px;
+  color: #4f4f4f;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Montserrat;
+  margin-bottom: 50px;
+}
+.heading__decoration {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.heading__decoration::after {
+  content: '';
+  display: block;
+  width: 100%;
+  border-bottom: 20px solid #ff9f28;
+  position: absolute;
+  bottom: -3px;
+  z-index: -1;
+}
+.information__text {
+  margin-bottom: 60px;
+}
+.stores__decor {
+  font-style: 18px;
+  font-weight: bold;
+  color: #56ccf2;
+}
+.infoText__decor {
+  color: #4f4f4f;
+  font-weight: bold;
+  font-style: 18px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.infoText__decor::after {
+  content: '';
+  display: block;
+  left: 0;
+  width: 100%;
+  border-bottom: 8px solid #ff9f28;
+  position: absolute;
+  bottom: -2px;
+  z-index: -1;
+}

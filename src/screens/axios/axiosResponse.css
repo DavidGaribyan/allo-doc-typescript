@@ -1,0 +1,25 @@
+.album__list {
+  list-style: none;
+  width: 650px;
+  margin: 0 auto;
+}
+.album__list-item {
+  cursor: pointer;
+  border: 1px solid cornsilk;
+  background-color: #e0e0dc;
+  padding: 16px;
+  margin: 16px;
+
+  text-align: center;
+}
+.img {
+  margin: 16px;
+  width: 100px;
+  border-radius: 50%;
+}
+.img__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
